@@ -14,7 +14,7 @@ public class _70_爬楼梯 {
      * @return
      */
     public static void main(String[] args) {
-        System.out.println(climbStairs(5));
+        System.out.println(climbStairs2(2));
     }
     public static  int climbStairs(int n) {
 
@@ -27,6 +27,18 @@ public class _70_爬楼梯 {
         }
         return  res;
     }
+
+    public static  int climbStairs2(int n) { //斐波那契数列解法
+        if (n==0) return 0;
+        int first = 0, second = 1, tmp = second;
+        for (int i = 1; i < n; i++) {
+            tmp = second;//顶替原来第二个值
+            second = second + first;//新的第二个值
+            first = tmp;//原第二个 顶替 第一个值
+        }
+        return second;
+    }
+
 
 
 
