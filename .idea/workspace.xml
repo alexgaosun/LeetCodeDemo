@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e563f4a-9a0c-4177-8e94-67eff6bf7d24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/链表/_4_寻找两个正序数组中的中位数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/_2_两数相加.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_70_爬楼梯.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_70_爬楼梯.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +29,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1qTFhkJyAQBvz0smGoQiaFD3Z3C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -145,7 +146,7 @@
       <workItem from="1617161139234" duration="20130000" />
       <workItem from="1617351550694" duration="14516000" />
       <workItem from="1617797787035" duration="43000" />
-      <workItem from="1617878560949" duration="5365000" />
+      <workItem from="1617878560949" duration="8770000" />
     </task>
     <servers />
   </component>
