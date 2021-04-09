@@ -7,7 +7,7 @@ public class _141_环形链表 {
 		
 		ListNode slow = head;
 		ListNode fast = head.next;
-		while (fast != null && fast.next != null) {
+		while (fast != null && fast.next != null) {//保证快慢指针都有值 执行。
 			slow = slow.next;
 			fast = fast.next.next;
 			

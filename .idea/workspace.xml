@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e563f4a-9a0c-4177-8e94-67eff6bf7d24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/_141_环形链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_141_环形链表.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +147,7 @@
       <workItem from="1617161139234" duration="20130000" />
       <workItem from="1617351550694" duration="14516000" />
       <workItem from="1617797787035" duration="43000" />
-      <workItem from="1617878560949" duration="10771000" />
+      <workItem from="1617878560949" duration="12070000" />
     </task>
     <servers />
   </component>
