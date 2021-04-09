@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e563f4a-9a0c-4177-8e94-67eff6bf7d24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/链表/_2_两数相加.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Application._4_寻找两个正序数组中的中位数">
     <configuration name="_11_盛水最多的容器" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -146,7 +147,7 @@
       <workItem from="1617161139234" duration="20130000" />
       <workItem from="1617351550694" duration="14516000" />
       <workItem from="1617797787035" duration="43000" />
-      <workItem from="1617878560949" duration="8770000" />
+      <workItem from="1617878560949" duration="10771000" />
     </task>
     <servers />
   </component>
@@ -165,6 +166,11 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/LeetCodeDemo" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -172,11 +178,6 @@
           <url>file://$PROJECT_DIR$/src/链表/_11_盛水最多的容器.java</url>
           <line>43</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/链表/_11_盛水最多的容器.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/链表/_4_寻找两个正序数组中的中位数.java</url>
