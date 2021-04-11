@@ -10,9 +10,12 @@ public class _3_无重复的最长子串 {
         for (int end = 0; end < s.length(); end++) {
             char tmpChar = s.charAt(end);
             if (map.containsKey(tmpChar)) {
-                start = Math.max(map.get(tmpChar) + 1, start);//比如 "dvdf" ，碰到第二个 d，那么应该移动 i 到 v 这个字符，因为这样就从窗口里面把第一个 d 略过了,和原来存储的起始位置进行比较
+                //比如 "dvdf" ，碰到第二个 d，那么应该移动 i 到 v 这个字符，
+                // 因为这样就从窗口里面把第一个 d 略过了,和原来存储的起始位置进行比较
+                start = Math.max(map.get(tmpChar) + 1, start);
             }
-            longSubStrLen = Math.max(longSubStrLen, end - start + 1);//此处加1 是得到字符串的个数，如果i为0则 等于
+            //此处加1 是得到字符串的个数，如果i为0则 等于 + 1
+            longSubStrLen = Math.max(longSubStrLen, end - start + 1);
             map.put(tmpChar, end);//123
         }
         return longSubStrLen;
