@@ -20,32 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e563f4a-9a0c-4177-8e94-67eff6bf7d24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/链表/_24_两两交换链表中的节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/链表/_142_环形链表2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/00-leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/二叉树/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/二叉树/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/二叉树/_226_翻转二叉树.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/二叉树/_226_翻转二叉树.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/二叉树/二叉树遍历.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/二叉树/二叉树遍历.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/栈/_20_有效的括号.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/栈/_20_有效的括号.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/栈/_232_用栈实现队列.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/栈/_232_用栈实现队列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_11_盛水最多的容器.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_11_盛水最多的容器.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_136_只出现一次的数字.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_136_只出现一次的数字.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_141_环形链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_141_环形链表.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_1_两数之和.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_1_两数之和.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_206_反转链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_206_反转链表.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_237_删除链表中的节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_237_删除链表中的节点.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_283_移动零.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_283_移动零.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_2_两数相加.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_2_两数相加.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_3_无重复的最长子串.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_3_无重复的最长子串.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_4_寻找两个正序数组中的中位数.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_4_寻找两个正序数组中的中位数.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/_70_爬楼梯.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_70_爬楼梯.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/offer03_数组中重复的数字.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/offer03_数组中重复的数字.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/offer05_替换空格.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/offer05_替换空格.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_136_只出现一次的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_136_只出现一次的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_206_反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_206_反转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_237_删除链表中的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_237_删除链表中的节点.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +158,8 @@
       <workItem from="1617351550694" duration="14516000" />
       <workItem from="1617797787035" duration="43000" />
       <workItem from="1617878560949" duration="13617000" />
-      <workItem from="1618157162835" duration="9654000" />
+      <workItem from="1618157162835" duration="10653000" />
+      <workItem from="1618169262965" duration="1196000" />
     </task>
     <servers />
   </component>
@@ -207,38 +184,46 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1474" height="331" key="GridCell.Tab.0.bottom" timestamp="1618167994291">
+    <state width="1474" height="77" key="GridCell.Tab.0.bottom" timestamp="1618169257788">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1474" height="331" key="GridCell.Tab.0.bottom/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618167994291" />
-    <state width="1474" height="331" key="GridCell.Tab.0.center" timestamp="1618167994289">
+    <state width="1474" height="331" key="GridCell.Tab.0.bottom/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618168110085" />
+    <state width="1474" height="77" key="GridCell.Tab.0.bottom/-1920.-48.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1618169257788" />
+    <state width="1474" height="77" key="GridCell.Tab.0.center" timestamp="1618169257787">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1474" height="331" key="GridCell.Tab.0.center/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618167994289" />
-    <state width="1474" height="331" key="GridCell.Tab.0.left" timestamp="1618167994288">
+    <state width="1474" height="331" key="GridCell.Tab.0.center/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618168110084" />
+    <state width="1474" height="77" key="GridCell.Tab.0.center/-1920.-48.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1618169257787" />
+    <state width="1474" height="77" key="GridCell.Tab.0.left" timestamp="1618169257786">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1474" height="331" key="GridCell.Tab.0.left/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618167994288" />
-    <state width="1474" height="331" key="GridCell.Tab.0.right" timestamp="1618167994290">
+    <state width="1474" height="331" key="GridCell.Tab.0.left/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618168110084" />
+    <state width="1474" height="77" key="GridCell.Tab.0.left/-1920.-48.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1618169257786" />
+    <state width="1474" height="77" key="GridCell.Tab.0.right" timestamp="1618169257787">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1474" height="331" key="GridCell.Tab.0.right/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618167994290" />
-    <state width="1474" height="331" key="GridCell.Tab.1.bottom" timestamp="1618167994336">
+    <state width="1474" height="331" key="GridCell.Tab.0.right/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618168110085" />
+    <state width="1474" height="77" key="GridCell.Tab.0.right/-1920.-48.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1618169257787" />
+    <state width="1474" height="77" key="GridCell.Tab.1.bottom" timestamp="1618169257793">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1474" height="331" key="GridCell.Tab.1.bottom/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618167994336" />
-    <state width="1474" height="331" key="GridCell.Tab.1.center" timestamp="1618167994334">
+    <state width="1474" height="331" key="GridCell.Tab.1.bottom/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618168110125" />
+    <state width="1474" height="77" key="GridCell.Tab.1.bottom/-1920.-48.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1618169257793" />
+    <state width="1474" height="77" key="GridCell.Tab.1.center" timestamp="1618169257792">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1474" height="331" key="GridCell.Tab.1.center/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618167994334" />
-    <state width="1474" height="331" key="GridCell.Tab.1.left" timestamp="1618167994334">
+    <state width="1474" height="331" key="GridCell.Tab.1.center/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618168110122" />
+    <state width="1474" height="77" key="GridCell.Tab.1.center/-1920.-48.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1618169257792" />
+    <state width="1474" height="77" key="GridCell.Tab.1.left" timestamp="1618169257788">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1474" height="331" key="GridCell.Tab.1.left/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618167994334" />
-    <state width="1474" height="331" key="GridCell.Tab.1.right" timestamp="1618167994335">
+    <state width="1474" height="331" key="GridCell.Tab.1.left/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618168110121" />
+    <state width="1474" height="77" key="GridCell.Tab.1.left/-1920.-48.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1618169257788" />
+    <state width="1474" height="77" key="GridCell.Tab.1.right" timestamp="1618169257792">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1474" height="331" key="GridCell.Tab.1.right/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618167994335" />
+    <state width="1474" height="331" key="GridCell.Tab.1.right/-1920.-25.1920.1057/0.0.1536.960@0.0.1536.960" timestamp="1618168110122" />
+    <state width="1474" height="77" key="GridCell.Tab.1.right/-1920.-48.1920.1080/0.0.1536.960@0.0.1536.960" timestamp="1618169257792" />
     <state x="0" y="0" width="1536" height="960" key="SettingsEditor" timestamp="1618167794793">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -261,11 +246,6 @@
           <url>file://$PROJECT_DIR$/src/链表/_136_只出现一次的数字.java</url>
           <line>26</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/链表/_24_两两交换链表中的节点.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/链表/_24_两两交换链表中的节点.java</url>
