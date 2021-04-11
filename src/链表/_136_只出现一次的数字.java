@@ -59,7 +59,7 @@ public class _136_只出现一次的数字 {
     }
 
 
-    public static  int[] singleNumbers(int[] nums) {
+    public static  int[] singleNumbers22(int[] nums) {
         //XOR操作
         int XOR = 0;
         for (int num : nums) {
