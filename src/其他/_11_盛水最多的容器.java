@@ -1,4 +1,4 @@
-package 链表;
+package 其他;
 
 public class _11_盛水最多的容器 {
     public static void main(String[] args) {
