@@ -6,4 +6,14 @@ public class ListNode {
 	ListNode(int x) { 
 		val = x; 
 	}
+
+	public ListNode testLinkedList(int count) {
+		ListNode head = null;
+		for (int i = count; i > 0 ; i--) {
+			ListNode node = new ListNode(i);
+			node.next = head;
+			head = node;
+		}
+		return head;
+	}
 }

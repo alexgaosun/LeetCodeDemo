@@ -33,7 +33,7 @@ public class _24_两两交换链表中的节点 {
     public static ListNode swapPairs2(ListNode head) {
         ListNode dummy = new ListNode(-1);//创建一个虚拟节点
         dummy.next = head;//虚拟节点的next指向 head
-        ListNode tmp = dummy; //tmp后的两个节点，需要更换后面的，进行临时保存
+        ListNode tmp = dummy; //tmp后的两个节点，需要改变后面的，避免head繁盛改变 ，进行临时保存
         while (tmp.next != null && tmp.next.next != null) {
             ListNode a = tmp.next;
             ListNode b = a.next;
