@@ -10,8 +10,10 @@ public class 递归Demo {
     public static void main(String[] args) {
         int[] nums = new int[]{1,2,3,4,5,6};
         int a = testRecursion2(10);
-        testRecursion(5);
-        getRes(nums);
+//        testRecursion(5);
+//        getRes(nums);
+        swapTest(1,3);
+
     }
     static int testRecursion(int n) {
         if (n <= 1) {
@@ -67,6 +69,7 @@ public class 递归Demo {
             return l2;
         }
 
+
         // L2发起第一轮递-mergeTwoLists (l1(1), l2(3)) //l1val 1, l2val 1
         // L1发起 第二轮递（1<3）:mergeTwoLists (l1(2), l2(3))//l1val 1, l2val 3
         // L1发起 第三轮递(l1 == null) 直接返回L2  此时L2（3）//l1val 2, l2val 3
@@ -75,4 +78,20 @@ public class 递归Demo {
         // L2回溯第一轮：//l1val 1, l2val 1： l2.next = l1(1) [1,2,3,4]
         //最终返回 L2
     }
+    static void swapTest(int a, int b) {
+        a = a + b;// 4 ，1+3
+        b = a - b;// 1 ，4-3
+        a = a - b;// a - 1
+        System.out.println(a + "----" + b);
+        System.out.println("------------");
+        a = a ^ b;
+        System.out.println(a + "----" + b);
+        b = a ^ b;
+        System.out.println(a + "----" + b);
+        a = a ^ b;
+        System.out.println(a + "----" + b);
+
+    }
+
+
 }
