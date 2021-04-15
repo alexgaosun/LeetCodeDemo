@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e563f4a-9a0c-4177-8e94-67eff6bf7d24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/链表/_19_删除链表中的第n个节点.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/二叉树/_226_翻转二叉树.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/二叉树/_226_翻转二叉树.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/其他/_1_两数之和.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/其他/_1_两数之和.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/链表/递归Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/递归Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/二叉树/_226_翻转二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/_226_翻转二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/其他/_1_两数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/其他/_1_两数之和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_237_删除链表中的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_237_删除链表中的节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/递归Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/递归Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
