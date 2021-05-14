@@ -48,7 +48,7 @@ public class _206_反转链表 {
 	public ListNode reverseListTest2(ListNode head) {
 		if (head == null || head.next == null) return head;
 		ListNode newHead = reverseListTest2(head.next);
-		newHead.next.next = head;
+		head.next.next = head;
 		head.next = null;
 		return newHead;
 	}

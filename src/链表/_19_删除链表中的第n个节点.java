@@ -9,12 +9,11 @@ public class _19_删除链表中的第n个节点 {
         dummy.next = head;
         ListNode cur = dummy;
         int length = getLength(head);
-        for (int i = 1; i < length - n + 1; i++) {
+        for (int i = 1; i < length - n + 1; i++) { //用虚拟节点遍历的 因此 在原生的基础上+1
             cur = cur.next;
         }
         cur.next = cur.next.next;
         return dummy.next;
-
     }
     public static int getLength(ListNode head) {
         int length = 0;
@@ -24,6 +23,10 @@ public class _19_删除链表中的第n个节点 {
         }
         return length;
     }
+
+
+
+
 
     //栈
     public ListNode removeNthFromEnd2(ListNode head, int n) {
@@ -43,7 +46,7 @@ public class _19_删除链表中的第n个节点 {
         return dummy.next;
 
     }
-    //栈
+    //双节点
     public ListNode removeNthFromEnd3(ListNode head, int n) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
