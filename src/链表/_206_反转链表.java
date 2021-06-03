@@ -33,14 +33,14 @@ public class _206_反转链表 {
 
 	public ListNode reverseListTest(ListNode head) {
 		if (head == null || head.next == null) return head;
-		ListNode pre = null;
+		ListNode newHead = null;
 		while (head != null) {
 			ListNode tmp = head.next;
-			head.next = pre;
-			pre = head;
-			head = tmp; //下一个要遍历的节点
+			head.next = newHead;
+			newHead = head;
+			head = tmp;
 		}
-		return pre;
+		return newHead;
 	}
 
 
@@ -50,7 +50,7 @@ public class _206_反转链表 {
 		ListNode newHead = reverseListTest2(head.next);
 		head.next.next = head;
 		head.next = null;
-		return newHead;
+		return  newHead;
 	}
 
 

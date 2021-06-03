@@ -53,18 +53,16 @@ public class _226_翻转二叉树 {
 //       
 //       return root;
 //    }
-	public TreeNode invertTree(TreeNode root) {//层序
+	public TreeNode invertTree(TreeNode root) {//层序遍历翻转
 		if (root == null) return root;
 		
 		Queue<TreeNode> queue = new LinkedList<>();
 		queue.offer(root);
-		
 		while (!queue.isEmpty()) {
 			TreeNode node = queue.poll();
 		    TreeNode tmp = node.left;
 		    node.left = node.right;
 		    node.right = tmp;
-			
 			if (node.left != null) {
 				queue.offer(node.left);
 			}

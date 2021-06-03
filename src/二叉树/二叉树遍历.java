@@ -74,7 +74,7 @@ public class 二叉树遍历 {
         while (!queue.isEmpty()) {
             List<Integer> valList = new ArrayList<>();
             Queue<TreeNode> tmpQueue = new LinkedList<>();
-            while (!queue.isEmpty()) {
+            while (!queue.isEmpty()) {//队列不为空队列
                 TreeNode tmpNode = queue.poll();
                 valList.add(tmpNode.val);
                if (tmpNode.left != null) {
@@ -85,7 +85,7 @@ public class 二叉树遍历 {
                }
             }
             retList.add(valList);
-            queue = tmpQueue;
+            queue = tmpQueue;//临时队列赋值
         }
         return retList;
     }

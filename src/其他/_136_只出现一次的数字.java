@@ -16,7 +16,7 @@ public class _136_只出现一次的数字 {
     }
     public int singleNumber(int[] nums) {
         int ans = nums[0];
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++) {//由于1已经取出 直接和 第二个开始比
             ans = ans ^ nums[i];//进行异或运算即可
         }
         return ans;

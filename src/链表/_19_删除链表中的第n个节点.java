@@ -2,6 +2,7 @@ package 链表;
 
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class _19_删除链表中的第n个节点 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
@@ -28,12 +29,14 @@ public class _19_删除链表中的第n个节点 {
 
 
 
-    //栈
+    //栈-删除链表中的第n个节点
     public ListNode removeNthFromEnd2(ListNode head, int n) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode cur = dummy;
-        Deque<ListNode> stack = new LinkedList<>();
+        Stack<ListNode> stack = new Stack<>();
+
+//        Deque<ListNode> stack = new LinkedList<>();
         while (cur != null) {
             stack.push(cur);
             cur = cur.next;
