@@ -20,16 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e563f4a-9a0c-4177-8e94-67eff6bf7d24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/排序/冒泡排序.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/排序/快速排序.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/链表/_141_环形链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_141_环形链表.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/链表/_206_反转链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/_206_反转链表.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/链表/递归Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/链表/递归Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/二叉树/_226_翻转二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/_226_翻转二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/二叉树/二叉树遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/二叉树遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/二叉树/二叉树遍历_迭代.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二叉树/二叉树遍历_迭代.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/其他/_136_只出现一次的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/其他/_136_只出现一次的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_19_删除链表中的第n个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_19_删除链表中的第n个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/_206_反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/_206_反转链表.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.a和b交换">
+  <component name="RunManager" selected="Application._1_两数之和">
+    <configuration name="冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.冒泡排序" />
+      <module name="00-leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="递归Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="链表.递归Demo" />
       <module name="00-leetcode" />
@@ -88,34 +97,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="快速排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.快速排序" />
+      <module name="00-leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_1_两数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="其他._1_两数之和" />
-      <module name="00-leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_24_两两交换链表中的节点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="链表._24_两两交换链表中的节点" />
-      <module name="00-leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_25_k个一组删除翻转链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="链表._25_k个一组删除翻转链表" />
       <module name="00-leetcode" />
       <extension name="coverage">
         <pattern>
@@ -142,15 +138,14 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.冒泡排序" />
         <item itemvalue="Application.a和b交换" />
         <item itemvalue="Application._1_两数之和" />
         <item itemvalue="Application.递归Demo" />
-        <item itemvalue="Application._25_k个一组删除翻转链表" />
-        <item itemvalue="Application._24_两两交换链表中的节点" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,14 +165,14 @@
       <workItem from="1618157162835" duration="10653000" />
       <workItem from="1618169262965" duration="1341000" />
       <workItem from="1618196239757" duration="957000" />
-      <workItem from="1620981378161" duration="27637000" />
-      <workItem from="1622166993363" duration="1084000" />
-      <workItem from="1622612005164" duration="15000" />
+      <workItem from="1620981378161" duration="7394000" />
+      <workItem from="1622561105967" duration="3389000" />
+      <workItem from="1622647113696" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -196,6 +191,28 @@
       <path value="$PROJECT_DIR$/LeetCodeDemo" />
     </ignored-roots>
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1858" height="3" key="GridCell.Tab.0.bottom" timestamp="1622569137236">
+      <screen x="-1920" y="-25" width="1920" height="992" />
+    </state>
+    <state width="1858" height="3" key="GridCell.Tab.0.bottom/-1920.-25.1920.992/0.23.1536.937@-1920.-25.1920.992" timestamp="1622569137236" />
+    <state width="1858" height="3" key="GridCell.Tab.0.bottom/-1920.-48.1920.1080/0.0.1536.960@-1920.-48.1920.1080" timestamp="1622568332391" />
+    <state width="1858" height="3" key="GridCell.Tab.0.center" timestamp="1622569137235">
+      <screen x="-1920" y="-25" width="1920" height="992" />
+    </state>
+    <state width="1858" height="3" key="GridCell.Tab.0.center/-1920.-25.1920.992/0.23.1536.937@-1920.-25.1920.992" timestamp="1622569137235" />
+    <state width="1858" height="3" key="GridCell.Tab.0.center/-1920.-48.1920.1080/0.0.1536.960@-1920.-48.1920.1080" timestamp="1622568332390" />
+    <state width="1858" height="3" key="GridCell.Tab.0.left" timestamp="1622569137235">
+      <screen x="-1920" y="-25" width="1920" height="992" />
+    </state>
+    <state width="1858" height="3" key="GridCell.Tab.0.left/-1920.-25.1920.992/0.23.1536.937@-1920.-25.1920.992" timestamp="1622569137235" />
+    <state width="1858" height="3" key="GridCell.Tab.0.left/-1920.-48.1920.1080/0.0.1536.960@-1920.-48.1920.1080" timestamp="1622568332389" />
+    <state width="1858" height="3" key="GridCell.Tab.0.right" timestamp="1622569137235">
+      <screen x="-1920" y="-25" width="1920" height="992" />
+    </state>
+    <state width="1858" height="3" key="GridCell.Tab.0.right/-1920.-25.1920.992/0.23.1536.937@-1920.-25.1920.992" timestamp="1622569137235" />
+    <state width="1858" height="3" key="GridCell.Tab.0.right/-1920.-48.1920.1080/0.0.1536.960@-1920.-48.1920.1080" timestamp="1622568332391" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -208,6 +225,16 @@
           <url>file://$PROJECT_DIR$/src/其他/_4_寻找两个正序数组中的中位数.java</url>
           <line>29</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/其他/_1_两数之和.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/其他/_1_两数之和.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
